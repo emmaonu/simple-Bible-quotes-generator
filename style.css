@@ -12,6 +12,7 @@ body{
 }
 
 .container{
+    width: 350px;
     height: auto;
     box-shadow: 0 10px 20px;
     background-color: #1d3557;
@@ -45,6 +46,7 @@ h1{
     color: #fffcf2;
     font-size: 1.2rem;
     margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #quote{
