@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Bible Quote Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav" id="nav">
+        <ul class="nav-item" id="nav-item">
+          <li><a href="/HTML/faith.html">Faith</a></li>
+          <li><a href="/HTML/prayer.html">Prayer</a></li>
+          <li><a href="/HTML/depression.html">Depression</a></li>
+          <li><a href="/HTML/finance.html">Finance</a></li>
+          <li><a href="/HTML/wisdom.html">Wisdom</a></li>
+          <li><a href="/HTML/fear.html">Fear</a></li>
+          <li><a href="/HTML/reigning.html">Reigning with Jesus</a></li>
+        </ul>
+        <div class="toggle" id="toggle-bar" onclick="cross(this)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <h1>
+        BIBLE QUOTE GENERATOR <br />
+        🙏🏾
+      </h1>
+      <div id="script-container">
+        <p id="quote">
+          <q>For we walk by faith, not by sight.</q>
+        </p>
+        <p id="verse">2 Corinthians 5:7 NKJV</p>
+        <button id="generate-el">New Scripture</button>
+        <button id="audio-el" onclick="audioButton()">Audio</button>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
